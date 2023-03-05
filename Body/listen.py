@@ -1,4 +1,4 @@
-import speech_recognition as sr 
+import speech_recognition as sr
 from googletrans import Translator
 
 
@@ -7,20 +7,20 @@ from googletrans import Translator
 # convert the audio input to text format in the language spoken by user
 # return the text format of that audio input
 def listen():
-    r=sr.Recognizer()
+    r = sr.Recognizer()
 
     with sr.Microphone() as source:
         print("Listening...")
-        r.pause_threshold=1
-        audio=r.listen(source,0,5)
+        r.pause_threshold = 1
+        audio = r.listen(source, 0, 5)
 
     try:
         print("Recognizing...")
-        query=r.reognize_google(audio,language="hi")
+        query = r.recognize_google(audio, language="hi")
     except:
-        return ""
+        return "Exception-thrown"
 
-    query=str(query).lower()
+    query = str(query).lower()
     return query
 
 # takes text input and convert that text input user desired language
@@ -41,3 +41,4 @@ def mic_execution():
     query = listen()
     data = translate_hindi_to_english(query)
     return data
+

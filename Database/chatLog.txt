@@ -1,0 +1,15 @@
+
+You: Hi, who are you? 
+Tess: I'm Tess.
+You: Hi, who are you? 
+Tess: I'm Tess.
+You: What's date today 
+Tess: Today's date is March 3, 2020.
+You: What's date today 
+Tess: Today's date is March 3, 2020.
+You: De today 
+Tess: I'm sorry, I didn't understand what you meant by "De today". Can you please clarify?
+You: New Phagan 
+Tess: I'm sorry, I didn't understand what you meant by "New Phagan". Can you please clarify?
+You: Exception-thrown 
+Tess: I'm sorry, I didn't understand what you meant by "Exception-thrown". Can you please clarify?

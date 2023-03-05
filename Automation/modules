@@ -1,0 +1,42 @@
+#!/bin/bash
+
+pip install googletrans==4.0.0-rc1 
+# (use this version only) # Googletrans is a free and unlimited python library that implemented Google Translate API.
+# stack overflow: https://stackoverflow.com/questions/52455774/googletrans-stopped-working-with-error-nonetype-object-has-no-attribute-group
+echo "#################################gTTS Installed ##### #######################################"
+
+echo ""
+echo ""
+
+pip install speechrecognition # Library for performing speech recognition, with support for several engines and APIs, online and offline.
+echo "#################################speech recognition Installed ##### #######################################"
+
+echo ""
+echo ""
+
+pip install pyaudio # With PyAudio, you can easily use Python to play and record audio on a variety of platforms
+echo "#################################PyAudio Installed ##### #######################################"
+
+echo ""
+echo ""
+
+pip install pyttsx3 # pyttsx3 is a text-to-speech conversion library in Python
+echo "#################################puttsx3 Installed ##### #######################################"
+
+echo ""
+echo ""
+
+pip install selenium==4.1.3 # The selenium package is used to automate web browser interaction from Python.
+echo "#################################selenium Installed ##### #######################################"
+
+echo ""
+echo ""
+
+pip install openai
+echo "#################################openai Installed ##### #######################################"
+
+echo ""
+echo ""
+
+pip install python-dotenv
+echo "#################################dotenv Installed ##### #######################################"
